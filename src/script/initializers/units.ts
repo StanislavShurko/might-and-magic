@@ -28,13 +28,10 @@ const unitPositions: { [key: string]: UnitPosition } = {
 };
 
 export default function initializeUnits() {
-  console.log("asdjhflkasdjhfaklsjcbndslkjvb", Object.entries(unitPositions));
   Object.entries(unitPositions).forEach(([key, position]) => {
     const unit = document.createElement("div");
 
     unit.className = position.type;
-
-    console.log("jashdflksjdlcasd", `#${key}`);
 
     document.querySelector(`#cell-${key}`).appendChild(unit);
   });
