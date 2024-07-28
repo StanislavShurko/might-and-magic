@@ -1,0 +1,27 @@
+#battlefield {
+    background-color: green;
+
+    width: 100%;
+    min-width: 1120px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.battlefield_row {
+    display: flex;
+    height: 64px;
+    max-width: 100%;
+
+    gap: 32px;
+}
+
+.battlefield_cell {
+    width: 64px;
+    height: 64px;
+    border: 1px solid white;
+}
