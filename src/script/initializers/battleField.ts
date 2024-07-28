@@ -5,8 +5,6 @@ const width = 15;
 export default function createBattleField(): void {
   const battlefield = document.getElementById("battlefield");
 
-  console.log("sdfhasjdhkljacsndl");
-
   for (let i = 0; i < height; i++) {
     const row = document.createElement("div");
 

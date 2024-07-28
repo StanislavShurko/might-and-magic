@@ -31,7 +31,7 @@ export default function initializeUnits() {
   Object.entries(unitPositions).forEach(([key, position]) => {
     const unit = document.createElement("div");
 
-    unit.className = position.type;
+    unit.className = position.type + "-" + position.team;
 
     document.querySelector(`#cell-${key}`).appendChild(unit);
   });
