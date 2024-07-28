@@ -1,5 +1,5 @@
-const height = 8;
-const width = 12;
+const height = 5;
+const width = 15;
 
 export default function createBattleField(): void {
   const battlefield = document.getElementById("battlefield");
